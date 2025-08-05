@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, Calendar, MapPin, Phone, User, LogOut, X } from "lucide-react";
+import { Menu, Calendar, MapPin, Phone, User, LogOut, X, Shield } from "lucide-react";
 import { useAuth } from "@/hooks/useAuth";
 import { useToast } from "@/hooks/use-toast";
+import { UserMenu } from "./UserMenu";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { user, signOut } = useAuth();
+  const { user, signOut, isAdmin, isManager, isStaff } = useAuth();
   const { toast } = useToast();
 
   const handleSignOut = async () => {
@@ -51,6 +52,12 @@ const Navbar = () => {
             <a href="#contact" className="text-foreground hover:text-accent transition-smooth">
               Contact
             </a>
+            {(isAdmin || isManager || isStaff) && (
+              <Link to="/admin" className="text-foreground hover:text-accent transition-smooth flex items-center gap-1">
+                <Shield className="w-4 h-4" />
+                Admin
+              </Link>
+            )}
           </div>
 
           {/* Action Buttons */}
@@ -65,21 +72,7 @@ const Navbar = () => {
             </Button>
             
             {user ? (
-              <div className="flex items-center space-x-3 ml-4">
-                <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                  <User className="h-4 w-4" />
-                  <span>{user.email}</span>
-                </div>
-                <Button 
-                  variant="outline" 
-                  size="sm"
-                  onClick={handleSignOut}
-                  className="flex items-center space-x-1"
-                >
-                  <LogOut className="h-4 w-4" />
-                  <span>Sign Out</span>
-                </Button>
-              </div>
+              <UserMenu />
             ) : (
               <Link to="/auth">
                 <Button variant="outline" size="sm">
