@@ -84,7 +84,7 @@ const Auth = () => {
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center gap-2 text-white hover:text-accent-glow transition-colors">
             <Car className="h-8 w-8" />
-            <span className="text-2xl font-bold">Legacy Detailing</span>
+            <span className="text-2xl font-bold">Recommended</span>
           </Link>
         </div>
 

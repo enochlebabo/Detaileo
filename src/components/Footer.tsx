@@ -54,7 +54,7 @@ const Footer = () => {
             {/* Brand Section */}
             <div className="lg:col-span-2">
               <div className="text-3xl font-bold text-accent mb-4">
-                Legacy Detailing
+                Recommended
               </div>
               <p className="text-primary-foreground/80 mb-6 max-w-md">
                 Premium automotive care with professional detailing services 
@@ -143,7 +143,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-primary-foreground/80 mb-4 md:mb-0">
-              © 2024 Legacy Detailing System. All rights reserved.
+              © 2024 Recommended. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-primary-foreground/80 hover:text-accent transition-smooth">

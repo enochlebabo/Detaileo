@@ -34,7 +34,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
             <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Legacy Detailing
+              Recommended
             </div>
           </Link>
 
