@@ -82,19 +82,19 @@ const Auth = () => {
     <div className="min-h-screen bg-gradient-hero flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <Link to="/" className="inline-flex items-center gap-2 text-white hover:text-accent-glow transition-colors">
-            <Car className="h-8 w-8" />
-            <span className="text-2xl font-bold">Recommended</span>
+          <Link to="/" className="inline-flex items-center gap-3 text-white hover:text-accent-glow transition-smooth">
+            <Car className="h-10 w-10 text-accent" />
+            <span className="text-3xl font-bold bg-gradient-luxury bg-clip-text text-transparent tracking-wide">Detaileo</span>
           </Link>
         </div>
 
-        <Card className="bg-card/95 backdrop-blur-sm shadow-elegant">
+        <Card className="bg-card/95 backdrop-blur-sm shadow-elegant border-accent/20">
           <CardHeader className="text-center">
-            <CardTitle className="text-2xl font-bold text-primary">
-              Welcome
+            <CardTitle className="text-3xl font-bold bg-gradient-luxury bg-clip-text text-transparent">
+              Welcome to Excellence
             </CardTitle>
-            <CardDescription>
-              Sign in to your account or create a new one
+            <CardDescription className="text-lg text-muted-foreground">
+              Access your exclusive Detaileo experience
             </CardDescription>
           </CardHeader>
           <CardContent>

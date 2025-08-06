@@ -29,13 +29,13 @@ const BookingInterface = () => {
           <Badge variant="outline" className="mb-4">
             Book Your Service
           </Badge>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Easy Online
-            <span className="block text-accent">Booking Experience</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 tracking-wide">
+            Effortless Luxury
+            <span className="block bg-gradient-luxury bg-clip-text text-transparent">Appointment Scheduling</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Schedule your car detailing appointment in just a few clicks. 
-            Real-time availability and instant confirmation.
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            Reserve your bespoke Detaileo experience with our sophisticated booking system. 
+            Real-time availability and white-glove confirmation service.
           </p>
         </div>
 
@@ -92,12 +92,12 @@ const BookingInterface = () => {
               <CardContent>
                 <div className="flex justify-between items-center">
                   <div>
-                    <div className="font-semibold text-lg">Premium Wash & Wax</div>
-                    <div className="text-sm text-muted-foreground">Legacy Downtown - Luxury</div>
-                    <div className="text-sm text-muted-foreground">Duration: 2-3 hours</div>
+                    <div className="font-semibold text-lg">Platinum Elite Detailing</div>
+                    <div className="text-sm text-muted-foreground">Detaileo Maseru Elite - Ultra-Luxury</div>
+                    <div className="text-sm text-muted-foreground">Duration: 4-6 hours</div>
                   </div>
                   <div className="text-right">
-                    <div className="text-2xl font-bold text-accent">$199</div>
+                    <div className="text-2xl font-bold text-accent">$899</div>
                     <Button variant="ghost" size="sm" className="text-xs">
                       Change Service
                     </Button>
@@ -192,14 +192,14 @@ const BookingInterface = () => {
                 <CardTitle>Booking Summary</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="flex justify-between">
-                  <span className="text-muted-foreground">Service:</span>
-                  <span className="font-medium">Premium Wash & Wax</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-muted-foreground">Location:</span>
-                  <span className="font-medium">Legacy Downtown</span>
-                </div>
+                 <div className="flex justify-between">
+                   <span className="text-muted-foreground">Service:</span>
+                   <span className="font-medium">Platinum Elite Detailing</span>
+                 </div>
+                 <div className="flex justify-between">
+                   <span className="text-muted-foreground">Location:</span>
+                   <span className="font-medium">Detaileo Maseru Elite</span>
+                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Date:</span>
                   <span className="font-medium">March 15, 2024</span>
@@ -209,18 +209,18 @@ const BookingInterface = () => {
                   <span className="font-medium">10:30 AM</span>
                 </div>
                 <div className="border-t pt-4">
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Service Fee:</span>
-                    <span>$199.00</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Tax:</span>
-                    <span>$15.92</span>
-                  </div>
-                  <div className="flex justify-between font-bold text-lg border-t pt-2 mt-2">
-                    <span>Total:</span>
-                    <span className="text-accent">$214.92</span>
-                  </div>
+                   <div className="flex justify-between">
+                     <span className="text-muted-foreground">Service Fee:</span>
+                     <span>M 15,890.00</span>
+                   </div>
+                   <div className="flex justify-between">
+                     <span className="text-muted-foreground">VAT (15%):</span>
+                     <span>M 2,383.50</span>
+                   </div>
+                   <div className="flex justify-between font-bold text-lg border-t pt-2 mt-2">
+                     <span>Total:</span>
+                     <span className="text-accent">M 18,273.50</span>
+                   </div>
                 </div>
 
                 <Button variant="hero" className="w-full" size="lg">

@@ -7,9 +7,9 @@ const Locations = () => {
   const locations = [
     {
       id: 1,
-      name: "Legacy Downtown",
+      name: "Detaileo Maseru Elite",
       type: "Luxury",
-      address: "123 Premium Blvd, Downtown District",
+      address: "Kingsway Avenue, Maseru Central, Lesotho",
       phone: "(555) 123-4567",
       rating: 4.9,
       reviews: 245,
@@ -20,9 +20,9 @@ const Locations = () => {
     },
     {
       id: 2,
-      name: "Legacy Express Mall",
+      name: "Detaileo Thaba-Bosiu Premium",
       type: "Economy",
-      address: "456 Shopping Center Way, Mall District",
+      address: "Ha Thetsane Industrial Area, Maseru, Lesotho",
       phone: "(555) 987-6543",
       rating: 4.7,
       reviews: 189,
@@ -33,9 +33,9 @@ const Locations = () => {
     },
     {
       id: 3,
-      name: "Legacy Westside",
+      name: "Detaileo Roma Luxury Spa",
       type: "Luxury",
-      address: "789 Elite Avenue, Westside",
+      address: "Roma Valley Road, Roma, Lesotho",
       phone: "(555) 456-7890",
       rating: 4.8,
       reviews: 312,
@@ -58,13 +58,13 @@ const Locations = () => {
           <Badge variant="outline" className="mb-4">
             Our Locations
           </Badge>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Find Your Nearest
-            <span className="block text-accent">Legacy Location</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 tracking-wide">
+            Discover Your Exclusive
+            <span className="block bg-gradient-luxury bg-clip-text text-transparent">Detaileo Sanctuary</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            With over 50 locations, we're always close by. Choose from our luxury 
-            spa locations or convenient economy centers.
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
+            Experience unparalleled luxury at our meticulously curated locations across Lesotho. 
+            Each Detaileo sanctuary offers bespoke automotive excellence tailored for the elite.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

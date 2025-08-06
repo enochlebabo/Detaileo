@@ -2,53 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Recommended Design System - Professional Automotive Theme */
+/* Detaileo Ultra-Luxury Design System - Premium Automotive Excellence */
 
 @layer base {
   :root {
-    /* Professional automotive color palette */
-    --background: 0 0% 100%;
-    --foreground: 220 15% 8%;
+    /* Ultra-luxury color palette inspired by Rolls-Royce, Chanel, Cartier */
+    --background: 0 0% 98%;
+    --foreground: 0 0% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 8%;
+    --card-foreground: 0 0% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 8%;
+    --popover-foreground: 0 0% 8%;
 
-    /* Deep automotive blue as primary */
-    --primary: 220 95% 15%;
+    /* Deep Midnight Black - Ultimate sophistication */
+    --primary: 0 0% 8%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 220 95% 25%;
+    --primary-glow: 0 0% 15%;
 
-    /* Elegant gray secondary */
-    --secondary: 220 8% 96%;
-    --secondary-foreground: 220 15% 8%;
+    /* Platinum Silver - Refined elegance */
+    --secondary: 210 15% 85%;
+    --secondary-foreground: 0 0% 8%;
 
-    --muted: 220 8% 96%;
-    --muted-foreground: 220 8% 46%;
+    --muted: 210 15% 92%;
+    --muted-foreground: 0 0% 45%;
 
-    /* Luxury gold accent */
-    --accent: 45 95% 55%;
-    --accent-foreground: 220 15% 8%;
-    --accent-glow: 45 95% 65%;
+    /* Champagne Gold - Luxury accent */
+    --accent: 45 85% 65%;
+    --accent-foreground: 0 0% 8%;
+    --accent-glow: 45 85% 75%;
+
+    /* Rich Burgundy - Exclusivity */
+    --burgundy: 345 75% 25%;
+    --burgundy-foreground: 0 0% 98%;
+
+    /* Rose Gold - Warm luxury */
+    --rose-gold: 15 75% 70%;
+    --rose-gold-foreground: 0 0% 8%;
+
+    /* Deep Navy - Classic luxury */
+    --navy: 220 95% 15%;
+    --navy-foreground: 0 0% 98%;
+
+    /* Emerald - Premium jewel tone */
+    --emerald: 145 85% 35%;
+    --emerald-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 220 95% 15%;
+    --border: 210 15% 88%;
+    --input: 210 15% 88%;
+    --ring: 45 85% 65%;
 
-    /* Premium gradients */
+    /* Ultra-premium gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-glow)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-glow)) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--burgundy)) 50%, hsl(var(--accent)) 100%);
+    --gradient-luxury: linear-gradient(135deg, hsl(var(--navy)), hsl(var(--burgundy)), hsl(var(--accent)));
+    --gradient-rose: linear-gradient(135deg, hsl(var(--rose-gold)), hsl(var(--accent)));
     
-    /* Professional shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(var(--primary) / 0.2);
-    --shadow-glow: 0 0 40px hsl(var(--accent) / 0.3);
-    --shadow-card: 0 4px 20px -8px hsl(var(--primary) / 0.15);
+    /* Sophisticated shadows */
+    --shadow-elegant: 0 20px 60px -20px hsl(var(--primary) / 0.3);
+    --shadow-glow: 0 0 50px hsl(var(--accent) / 0.4);
+    --shadow-card: 0 8px 32px -12px hsl(var(--primary) / 0.2);
 
     /* Smooth animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -74,36 +92,48 @@
   }
 
   .dark {
-    /* Dark luxury theme */
-    --background: 220 20% 6%;
+    /* Dark ultra-luxury theme */
+    --background: 0 0% 8%;
     --foreground: 0 0% 98%;
 
-    --card: 220 20% 8%;
+    --card: 0 0% 10%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 220 20% 8%;
+    --popover: 0 0% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 220 95% 25%;
-    --primary-foreground: 0 0% 98%;
-    --primary-glow: 220 95% 35%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 8%;
+    --primary-glow: 0 0% 85%;
 
-    --secondary: 220 15% 15%;
+    --secondary: 0 0% 15%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 220 15% 15%;
-    --muted-foreground: 220 8% 65%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 45 95% 55%;
-    --accent-foreground: 220 20% 6%;
-    --accent-glow: 45 95% 65%;
+    --accent: 45 85% 65%;
+    --accent-foreground: 0 0% 8%;
+    --accent-glow: 45 85% 75%;
+
+    --burgundy: 345 75% 35%;
+    --burgundy-foreground: 0 0% 98%;
+
+    --rose-gold: 15 75% 70%;
+    --rose-gold-foreground: 0 0% 8%;
+
+    --navy: 220 95% 25%;
+    --navy-foreground: 0 0% 98%;
+
+    --emerald: 145 85% 45%;
+    --emerald-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 15% 20%;
-    --input: 220 15% 20%;
-    --ring: 220 95% 25%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 45 85% 65%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -138,6 +168,14 @@
     background: var(--gradient-hero);
   }
   
+  .bg-gradient-luxury {
+    background: var(--gradient-luxury);
+  }
+  
+  .bg-gradient-rose {
+    background: var(--gradient-rose);
+  }
+  
   .shadow-elegant {
     box-shadow: var(--shadow-elegant);
   }
@@ -156,5 +194,37 @@
   
   .transition-bounce {
     transition: var(--transition-bounce);
+  }
+  
+  .text-burgundy {
+    color: hsl(var(--burgundy));
+  }
+  
+  .text-rose-gold {
+    color: hsl(var(--rose-gold));
+  }
+  
+  .text-navy {
+    color: hsl(var(--navy));
+  }
+  
+  .text-emerald {
+    color: hsl(var(--emerald));
+  }
+  
+  .bg-burgundy {
+    background-color: hsl(var(--burgundy));
+  }
+  
+  .bg-rose-gold {
+    background-color: hsl(var(--rose-gold));
+  }
+  
+  .bg-navy {
+    background-color: hsl(var(--navy));
+  }
+  
+  .bg-emerald {
+    background-color: hsl(var(--emerald));
   }
 }

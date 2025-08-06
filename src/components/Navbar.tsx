@@ -32,9 +32,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
-            <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Recommended
+          <Link to="/" className="flex items-center hover:opacity-80 transition-smooth">
+            <div className="text-3xl font-bold bg-gradient-luxury bg-clip-text text-transparent tracking-wide">
+              Detaileo
             </div>
           </Link>
 

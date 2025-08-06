@@ -30,16 +30,16 @@ const Hero = () => {
               </span>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-              Premium Car
-              <span className="block text-accent">Detailing</span>
-              <span className="block">Excellence</span>
+            <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight tracking-wide">
+              Ultra-Luxury
+              <span className="block bg-gradient-luxury bg-clip-text text-transparent">Automotive</span>
+              <span className="block text-accent">Excellence</span>
             </h1>
 
             <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl leading-relaxed">
-              Experience luxury automotive care with our professional detailing services. 
-              From premium spa treatments to essential maintenance, we deliver excellence 
-              at every location.
+              Where sophistication meets unparalleled craftsmanship. Detaileo redefines 
+              automotive luxury with bespoke detailing services crafted for the discerning elite 
+              across exclusive locations in Lesotho.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">

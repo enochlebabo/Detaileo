@@ -36,7 +36,7 @@ const Footer = () => {
     {
       title: "Company",
       links: [
-        "About Legacy",
+        "About Detaileo",
         "Careers",
         "Franchise",
         "Press",
@@ -53,24 +53,24 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
             {/* Brand Section */}
             <div className="lg:col-span-2">
-              <div className="text-3xl font-bold text-accent mb-4">
-                Recommended
+              <div className="text-4xl font-bold bg-gradient-luxury bg-clip-text text-transparent mb-4 tracking-wide">
+                Detaileo
               </div>
-              <p className="text-primary-foreground/80 mb-6 max-w-md">
-                Premium automotive care with professional detailing services 
-                across multiple locations. Excellence is our standard.
+              <p className="text-primary-foreground/80 mb-6 max-w-md leading-relaxed">
+                Ultra-luxury automotive excellence crafted for the discerning elite. 
+                Where sophistication meets unparalleled service across exclusive locations.
               </p>
               
               {/* Contact Info */}
               <div className="space-y-3 mb-6">
-                <div className="flex items-center">
-                  <Phone className="w-4 h-4 mr-3 text-accent" />
-                  <span className="text-sm">(555) 123-LEGACY</span>
-                </div>
-                <div className="flex items-center">
-                  <Mail className="w-4 h-4 mr-3 text-accent" />
-                  <span className="text-sm">info@legacydetailing.com</span>
-                </div>
+                 <div className="flex items-center">
+                   <Phone className="w-5 h-5 mr-3 text-accent" />
+                   <span className="text-sm font-medium">(+266) 800-DETAILEO</span>
+                 </div>
+                 <div className="flex items-center">
+                   <Mail className="w-5 h-5 mr-3 text-accent" />
+                   <span className="text-sm font-medium">concierge@detaileo.co.ls</span>
+                 </div>
                 <div className="flex items-center">
                   <Clock className="w-4 h-4 mr-3 text-accent" />
                   <span className="text-sm">Mon-Sun: 7 AM - 8 PM</span>
@@ -143,7 +143,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-primary-foreground/80 mb-4 md:mb-0">
-              © 2024 Recommended. All rights reserved.
+              © 2024 Detaileo. All rights reserved. Luxury Redefined.
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-primary-foreground/80 hover:text-accent transition-smooth">
