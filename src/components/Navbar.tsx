@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center hover:opacity-80 transition-smooth">
-            <div className="text-3xl font-bold bg-gradient-luxury bg-clip-text text-transparent tracking-wide">
+            <div className="text-3xl font-bold text-primary tracking-wide font-serif">
               Detaileo
             </div>
           </Link>
