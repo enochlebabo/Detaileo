@@ -11,10 +11,10 @@ const Services = () => {
       icon: Sparkles,
       badge: "Most Popular",
       services: [
-        { name: "Full Spa Treatment", price: "$299", duration: "4-6 hours" },
-        { name: "Premium Wash & Wax", price: "$199", duration: "2-3 hours" },
-        { name: "Interior Deep Clean", price: "$149", duration: "2 hours" },
-        { name: "Paint Correction", price: "$399", duration: "6-8 hours" }
+        { name: "Full Spa Treatment", price: "R4,499", duration: "4-6 hours" },
+        { name: "Premium Wash & Wax", price: "R2,999", duration: "2-3 hours" },
+        { name: "Interior Deep Clean", price: "R2,249", duration: "2 hours" },
+        { name: "Paint Correction", price: "R5,999", duration: "6-8 hours" }
       ]
     },
     {
@@ -23,10 +23,10 @@ const Services = () => {
       icon: Car,
       badge: "Best Value",
       services: [
-        { name: "Basic Wash & Vacuum", price: "$29", duration: "30 mins" },
-        { name: "Express Detail", price: "$59", duration: "1 hour" },
-        { name: "Tire & Rim Care", price: "$39", duration: "30 mins" },
-        { name: "Interior Cleaning", price: "$79", duration: "1.5 hours" }
+        { name: "Basic Wash & Vacuum", price: "R439", duration: "30 mins" },
+        { name: "Express Detail", price: "R889", duration: "1 hour" },
+        { name: "Tire & Rim Care", price: "R589", duration: "30 mins" },
+        { name: "Interior Cleaning", price: "R1,189", duration: "1.5 hours" }
       ]
     },
     {
@@ -35,10 +35,10 @@ const Services = () => {
       icon: Shield,
       badge: "Recommended",
       services: [
-        { name: "Ceramic Coating", price: "$599", duration: "8-10 hours" },
-        { name: "Paint Protection Film", price: "$799", duration: "Full day" },
-        { name: "Rust Prevention", price: "$199", duration: "2 hours" },
-        { name: "Fabric Protection", price: "$129", duration: "1 hour" }
+        { name: "Ceramic Coating", price: "R8,999", duration: "8-10 hours" },
+        { name: "Paint Protection Film", price: "R12,999", duration: "Full day" },
+        { name: "Rust Prevention", price: "R2,999", duration: "2 hours" },
+        { name: "Fabric Protection", price: "R1,939", duration: "1 hour" }
       ]
     }
   ];
