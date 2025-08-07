@@ -25,18 +25,18 @@ const Hero = () => {
                   <Star key={i} className="w-5 h-5 fill-current" />
                 ))}
               </div>
-              <span className="text-primary-foreground font-medium">
+              <span className="text-white font-medium drop-shadow-md">
                 Trusted by 10,000+ customers
               </span>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight tracking-wide">
+            <h1 className="text-5xl md:text-7xl font-luxury font-black text-white mb-6 leading-tight tracking-wide drop-shadow-2xl">
               Ultra-Luxury
-              <span className="block bg-gradient-luxury bg-clip-text text-transparent">Automotive</span>
-              <span className="block text-accent">Excellence</span>
+              <span className="block text-transparent bg-gradient-to-r from-accent via-rose-gold to-accent bg-clip-text animate-logo-glow">Automotive</span>
+              <span className="block text-accent font-bold">Excellence</span>
             </h1>
 
-            <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl leading-relaxed">
+            <p className="text-xl text-white/95 mb-8 max-w-2xl leading-relaxed font-elegant drop-shadow-lg">
               Where sophistication meets unparalleled craftsmanship. Detaileo redefines 
               automotive luxury with bespoke detailing services crafted for the discerning elite 
               across exclusive locations in Lesotho.
@@ -48,7 +48,7 @@ const Hero = () => {
                 Book Your Service
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" size="lg" className="bg-background/10 border-primary-foreground/30 text-primary-foreground hover:bg-background/20">
+              <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm">
                 <MapPin className="w-5 h-5 mr-2" />
                 Find Locations
               </Button>
@@ -57,15 +57,15 @@ const Hero = () => {
             <div className="grid grid-cols-3 gap-8 max-w-md">
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">50+</div>
-                <div className="text-sm text-primary-foreground/80">Locations</div>
+                <div className="text-sm text-white/90 font-medium">Locations</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">24/7</div>
-                <div className="text-sm text-primary-foreground/80">Support</div>
+                <div className="text-sm text-white/90 font-medium">Support</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">100%</div>
-                <div className="text-sm text-primary-foreground/80">Satisfaction</div>
+                <div className="text-sm text-white/90 font-medium">Satisfaction</div>
               </div>
             </div>
           </div>
