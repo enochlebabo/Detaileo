@@ -32,7 +32,7 @@ const Hero = () => {
 
             <h1 className="text-5xl md:text-7xl font-luxury font-black text-white mb-6 leading-tight tracking-wide drop-shadow-2xl">
               Ultra-Luxury
-              <span className="block text-transparent bg-gradient-to-r from-accent via-rose-gold to-accent bg-clip-text animate-logo-glow">Automotive</span>
+              <span className="block text-transparent bg-gradient-to-r from-accent via-rose-gold to-accent bg-clip-text">Automotive</span>
               <span className="block text-accent font-bold">Excellence</span>
             </h1>
 

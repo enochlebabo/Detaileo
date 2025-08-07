@@ -33,11 +33,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center hover:opacity-80 transition-smooth">
-            <div className="relative">
-              <div className="text-4xl font-luxury font-black text-transparent bg-gradient-to-r from-accent via-rose-gold to-accent bg-clip-text animate-logo-glow tracking-wider drop-shadow-2xl">
-                DETAILEO
-              </div>
-              <div className="absolute -inset-2 bg-gradient-to-r from-accent/20 via-rose-gold/20 to-accent/20 blur-xl opacity-60 rounded-lg"></div>
+            <div className="text-4xl font-luxury font-black text-transparent bg-gradient-to-r from-accent via-rose-gold to-accent bg-clip-text tracking-wider drop-shadow-2xl">
+              DETAILEO
             </div>
           </Link>
 
